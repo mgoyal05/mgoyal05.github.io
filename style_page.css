@@ -1,0 +1,49 @@
+#header img{
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  padding-left: 17%;
+}
+.jumbotron{
+  background-color: black;
+  color: white;
+}
+
+.col-sm-3{
+ background-color: purple;
+ font-size: 2em;
+ text-align: center;
+ padding-top: .3em;
+ color: white;
+ height: 2em	;
+}
+
+a{
+ color: white;
+}
+
+.col-sm-3 a:hover{
+  font-size: 1.2em;
+  color: black;
+}
+.col-am-3 a:visited{
+  color: white;
+}
+.row{
+ padding-top: 1em;
+ height: 900%;
+}
+.affix {
+top: 0;
+width: 100%;
+}
+#interest {
+background:#f7f7f7;
+border:1px solid black;
+border-radius: 4em;
+padding:15px;
+font-family: cursive;
+font-size: 1.2em;
+color: black;
+margin: 6em 40em 0 2em;
+}
