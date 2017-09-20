@@ -1,126 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Home</title>  
-	<meta charset="utf-8">
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  	<link rel="stylesheet" type="text/css" href="style_page.css">
-  	<style type="text/css">
-  		
-		body{
-		    font-family: helvetica, cursive,sans-serif;
-		    color: fuchsia;
-		}
-		#mypic img{
-		    float: right;
-		    max-width: 30%;
-		    max-height: 20%;
-		    margin: 5em 4em;
-		}
-		#content{	
-		    background-color: black;
-		    color: white;
-		    text-decoration: underline;
-		    font-size: 2em;
-		    margin-top:1em;
-		    padding: 15px;
-		    text-align: center;
-		}
-		#intro{
-			background:green;
-			border:1px solid black;
-		    border-radius: 4em;
-			padding:25px;
-		    font-family: cursive;
-		    font-size: 1.2em;
-		    color: black;
-		    margin: 6em 30em 0 25em;
-		}
-    .interest_img{
-      max-width: 50%;
-      min-height: 40%;
-      max-height: 50%;
-      border-radius: 10px;
-      margin: 1em 0 1em 1em;
-      align-content: center;
-    }
-		#contact{
-    color:darkorange;
-    background-color: grey;
-    font-family: cursive;
-    border-radius: 10%; 
-    padding: 2em;
-    padding-bottom: 1em;
-    margin: 1em;
-    font-size: 2em;
-}
-#contact_header{
-  font-size: 2em;
-}
-input[type=text],input[type=email], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-#input_msg{
-  padding-bottom: 10em;
-}
-input[type=submit] {
-    width: 40%;
-    background-color: orange;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4em;
-    cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-#footer {
-	background:#f7f7f7;
-	border-radius: 4em;	
-	clear:both;
-  height: 60px;
-}
-#footer a{
-  margin-left: 13em;
-}
-footer{
-  background: #222222;
-  color: #efefef;
-  text-align: center;
-  margin: .1em;
-}
-  	</style>
+  <title>Home</title>  
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style_page.css">
 </head>
 <body>
-	   <div id = "header"><img src="welcome.jpg"></div>
-  	 <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
-    	 <div class="col-sm-3"><a href="#">Home</a></div>
-    	 <div class="col-sm-3" style="background-color:orange;"><a href="#content">About Me</a></div>
-    	 <div class="col-sm-3" style="background-color:purple;"><a href="#link">Contact Me</a></div>
-    	 <div class="col-sm-3" style="background-color:orange;"><a href="gallery.html">Gallery</a></div>
-  	 </nav>
+     <div id = "header"><img src="welcome.jpg"></div>
+     <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+       <div class="col-sm-3"><a href="#">Home</a></div>
+       <div class="col-sm-3" style="background-color:orange;"><a href="#content">About Me</a></div>
+       <div class="col-sm-3" style="background-color:purple;"><a href="#linkGallery">Gallery</a></div>
+       <div class="col-sm-3" style="background-color:orange;"><a href="#link">Contact Me</a></div>
+     </nav>
       <div id="content">Welcome to Manish Goyal's Homepage</div>
       <div id="mypic"><img src="me.jpg"><br></div>
       <div id="aboutme"><a href="About%20Me.pdf" target="_blank" title="About Me" >To know more about me click here.</a></div>
       <div id="intro">
           <h2>Manish Goyal</h2>
           <ul style="margin:10px;">
-          	B.Tech IIT Roorkee<br>
-          	Lives in Hyderabad<br>
-          	Software developer<br>
-          	@Zemosolabs
+            B.Tech IIT Roorkee<br>
+            Lives in Hyderabad<br>
+            Software developer<br>
+            @Zemosolabs
           </ul>
       </div>
        <div id="interest">
@@ -132,6 +38,19 @@ footer{
               <li>Learning musical instruments like harmonium(I love it!!!)</li><img class ="interest_img" src="musical.jpg">
           </ul>
       </div>
+      <div id="linkGallery"></div>
+    <br><br><br><br>
+    <h1 class="jumbotron gallery_header">MY GALLERY</h1>
+    <img class="gallery" src="1.jpg">
+    <img class="gallery" src="2.jpg">
+    <img class="gallery" src="3.jpg">
+    <img class="gallery" src="4.jpg">
+    <img class="gallery" src="5.jpg">
+    <img class="gallery" src="6.jpg">
+    <img class="gallery" src="7.jpg">
+    <img class="gallery" src="8.jpg">
+    <br>
+    <h1 class="jumbotron gallery_header">Keep visiting for more Photos :)</h1>
       <div id = "link"></div>
       <div id="contact">
         <center id ="contact_header">Contact me :<br></center>
