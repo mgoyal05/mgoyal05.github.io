@@ -142,6 +142,7 @@ input[type=text],input[type=email], select {
 #input_msg{
   padding-bottom: 10em;
 }
+
 input[type=submit] {
     width: 40%;
     background-color: orange;
