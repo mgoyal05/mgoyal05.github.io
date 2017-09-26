@@ -11,25 +11,30 @@
 }
 
 .col-sm-3{
-  background-color: purple;
+  background-color: #333;
   font-size: 2em;
   text-align: center;
   padding-top: .3em;
-  color: white;
   height: 2em	;
+  white-space: nowrap;
 }
 
-a{
-  color: white;
+.col-sm-3 a{
+    display: inline-block;
+    color: white;
 }
 
 .col-sm-3 a:hover{
-  font-size: 1.2em;
-  color: black;
+  background-color: #777;
+  min-width: 100%;
+  min-height: 100%;
+  color:white;
+  text-decoration: none;
 }
 
 .col-sm-3 a:visited{
   color: white;
+  text-decoration: none;
 }
 
 .row{
@@ -40,6 +45,28 @@ a{
 .affix {
   top: 0;
   width: 100%;
+}
+
+#knowmore{
+  text-align: center;
+  font-size: 2em;
+  background-color: #EE4F02;
+  display: block;
+  opacity: 0.7;
+  transition: all 0.5s ease-in-out;
+  width: 30%;
+  margin: 1em 20% -2em 30%;
+  padding: 1em;
+  border-radius: 50%;
+}
+
+#knowmore a{
+  color: black;
+}
+
+#knowmore:hover{
+  text-decoration: none;
+  opacity: 1.0;
 }
 
 #interest {
@@ -89,10 +116,11 @@ body{
   margin: 5em 4em;
 }
 
-#content{ 
-  background-color: black;
+#contentheader{ 
+  background-color: orange;
   color: white;
   text-decoration: underline;
+  font-weight: bold;
   font-size: 2em;
   margin-top:1em;
   padding: 15px;
