@@ -132,7 +132,7 @@ body{
   image-orientation: auto;
 }
 
-.gallery img:hover{
+.gallery:hover{
   opacity: 1;
 }
 
