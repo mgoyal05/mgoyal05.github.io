@@ -72,10 +72,10 @@ body{
   background-color: #EE4F02;
   display: block;
   opacity: 0.7;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.2s ease-in-out;
   width: 30%;
-  margin: 1em 20% -2em 30%;
-  padding: 1em;
+  margin: 1em 20% -2em 32%;
+  padding: 1.2em;
   border-radius: 50%;
 }
 
@@ -121,7 +121,7 @@ body{
   text-align: center;
 }
 
-.gallery{
+.gallery img{
   max-width: 25em;
   min-height: 25em;
   border: 1px hidden;
@@ -153,7 +153,7 @@ body{
 
 input[type=text],input[type=email], select {
   width: 100%;
-  padding: 12px 20px;
+  padding: 0px 20px;
   margin: 8px 0;
   display: inline;
   border: 1px solid #ccc;
@@ -161,8 +161,21 @@ input[type=text],input[type=email], select {
   box-sizing: border-box;
 }
 
+#errorName{
+  padding-left: 2%;
+  color: black;
+}
+
+#errorEmail{
+  padding-left: 2%;
+  color: black;
+}
+.input_email{
+
+}
+
 #input_msg{
-  padding-bottom: 10em;
+  padding-bottom: 2em;
 }
 
 input[type=submit] {

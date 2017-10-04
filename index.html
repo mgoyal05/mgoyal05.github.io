@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="data.json"></script>
     <link rel="stylesheet" type="text/css" href="style_page.css">
   </head>
   <body>
@@ -41,14 +42,7 @@
     <div id="linkGallery"></div>
     <br><br><br><br>
     <h1 class="jumbotron gallery_header">MY GALLERY</h1>
-    <img class="gallery" src="1.jpg">
-    <img class="gallery" src="2.jpg">
-    <img class="gallery" src="3.jpg">
-    <img class="gallery" src="4.jpg">
-    <img class="gallery" src="5.jpg">
-    <img class="gallery" src="6.jpg">
-    <img class="gallery" src="7.jpg">
-    <img class="gallery" src="8.jpg">
+    <p class="gallery"></p>
     <br>
     <h1 class="jumbotron gallery_header">Keep visiting for more Photos :)</h1>
     <div id = "link"></div>
@@ -56,13 +50,12 @@
       <center id ="contact_header">Contact me :<br></center>
       <form>
         <label>Name:</label>
-        <input type="text" name="Hare" placeholder="Your Name*" required="required" class="input_details">
+        <input type="text" name="Name" placeholder="Your Name*" onblur = "validateForm(this.value)" class="input_name"><br><p id = 'errorName'></p>
         <label>E-mail:</label>
-        <input type="email" name="Hare" placeholder="Your e-mail address*" required="required" class="input_details">
-        <br>
+        <input type="email" name="e-mail" placeholder="Your e-mail address*" onblur = "validateEmail(this.value)"  onkeyup = "validateEmail(this.value)" class="input_email"><p id = 'errorEmail'></p>
         <label for="input_msg">Your message</label>
-        <input type="text" id="input_msg" name="firstname" placeholder="Type here your Message..."><br>
-        <center><input type="submit" name="submit button" placeholder="submit me"></center>
+        <input type="text" id="input_msg" name="message" placeholder="Type here your Message..."><br>
+        <center><input type="submit" name="submit" placeholder="submit me" onclick = "validateSubmit()" id = 'errorSubmit' ></center>
       </form>
     </div>
     <div id="footer">
@@ -72,6 +65,10 @@
       <a href="http://tumblr.com" target="_blank"><img src="instagram.png" height="45em"></a>
       <a href="https://plus.google.com/u/1/114882080144903340331" target="_blank"><img src="Google+.png" height="45em"></a>
     </div>
+    <div class="banner-section" id="img-container">
+    </div>
     <footer>&copy; Manish Goyal-2017 All rights reserved</footer>
+    <script type="text/javascript" src="data.json"></script>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
