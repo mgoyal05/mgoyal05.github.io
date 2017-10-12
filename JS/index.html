@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script type="text/javascript" src="json/image_json.json"></script>
+    <link rel="stylesheet" type="text/css" href="style_page.css">
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-collapse collapse" id = "headertab" role="tablist">
+      <div class="col-sm-3 btn btn-lg btn-outline-primary btn-block"><a href="#">Home</a></div>
+      <div class="col-sm-3 btn btn-outline-primary btn-lg btn-block"><a href="#contentheader">About Me</a></div>
+      <div class="col-sm-3 btn btn-outline-primary btn-lg btn-block">
+        <div class="dropdown" id = "dropdowntabs">
+          <a class = "dropdown-toggle" data-toggle = "dropdown" href="#">Gallery</a>
+          <div class="dropdown-menu" style="background-color: #5f5f5f;">
+            <center><a class = "btn btn-lg" href="#linkGallery" style="background-color: #808080;margin-bottom: 1rem;">My Gallery</a><br>
+            <a class = "btn btn-lg" href="Gallery.html" style="background-color: #808080;margin-bottom: 1rem;">Gallery Admin</a>
+            </center>
+          </div>
+        </div>
+      </div>      
+      <div class="col-sm-3 btn btn-outline-primary btn-lg btn-block"><a href="#link">Contact Me</a></div>
+    </nav><br><br>
+    <center><img class="img-fluid" src="images/welcome.jpg"></center>
+    <div id="contentheader">Welcome to Manish Goyal's Homepage</div>
+    <div id="mypic"><img src="images/me.jpg"><br></div>
+    <div id="intro">
+      <h2>Manish Goyal</h2>
+      <ul style="margin:10px;">
+        B.Tech IIT Roorkee<br>
+        Lives in Hyderabad<br>
+        Software developer<br>
+        @Zemosolabs
+      </ul>
+    </div>
+    <div id="knowmore"><a href="About%20Me.pdf" target="_blank" title="About Me" >To know more about me click here.</a></div> 
+    <div id="interest">
+      <h2>Some of my interest includes:</h2>
+      <ul style="margin-top:10px;">
+        <li>Listening Music</li><img class="interest_img" src="images/music.jpg">
+        <li>Reading Philosophy</li><img class ="interest_img" src="images/Philosophy2.jpg">
+        <li>Travelling with Friends</li><img class ="interest_img" src="images/travelling.jpg">
+        <li>Learning musical instruments like harmonium(I love it!!!)</li><img class ="interest_img" src="images/musical.jpg">
+      </ul>
+    </div>
+    <div id="linkGallery"></div>
+    <h1 class="jumbotron gallery_header">MY GALLERY</h1>
+    <p class="gallery"></p>
+    <br>
+    <h1 class="jumbotron gallery_header">Keep visiting for more Photos :)</h1>
+    <div id = "link"></div>
+    <div id="contact">
+      <center id ="contact_header">Contact me :<br></center>
+      <form>
+        <label>Name:</label>
+        <input type="text" name="Name" placeholder="Your Name*" onblur = "validateName(this.value)" class="input_name"><br><p id = 'errorName'></p>
+        <label>E-mail:</label>
+        <input type="email" name="e-mail" placeholder="Your e-mail address*" onblur = "validateEmail(this.value)"  onkeyup = "validateEmail(this.value)" class="input_email"><p id = 'errorEmail'></p>
+        <label for="input_msg">Your message</label>
+        <input type="text" id="input_msg" name="message" placeholder="Type here your Message..."><br>
+        <center><input type="submit" name="submit" placeholder="submit me" onclick = "validateSubmit(this)" id = 'errorSubmit' ></center>
+      </form>
+    </div>
+    <div id="footer">
+      <a href="https://www.facebook.com/manish.goyal.9237" target="_blank"><img src ="images/logo-facebook.png" height="45em"></a>
+      <a href="http://twitter.com" target="_blank"><img src="images/twitter.png" height="45em"></a>
+      <a href="http://linkedin.com" target="_blank"><img src="images/linkedin-logo.png" height="45em"></a>
+      <a href="http://tumblr.com" target="_blank"><img src="images/instagram.png" height="45em"></a>
+      <a href="https://plus.google.com/u/1/114882080144903340331" target="_blank"><img src="images/Google+.png" height="45em"></a>
+    </div>
+    <div class="banner-section" id="img-container">
+    </div>
+    <footer>&copy; Manish Goyal-2017 All rights reserved</footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="json/image_json.json"></script>
+    <script type="text/javascript" src="JS/script.js"></script>
+  </body>
+</html>
