@@ -1,0 +1,75 @@
+var values = {
+	"tables" : [{
+	  "id" : 0,	
+	  "Total": 0.00,
+	  "Total_items": 0
+	},
+	{
+	  "id" : 1,	
+	  "Total": 0.00,
+	  "Total_items": 0
+	},
+	{
+	  "id" : 2,	
+	  "Total": 0.00,
+	  "Total_items": 0
+	},
+	{
+	  "id" : 3,	
+	  "Total": 0.00,
+	  "Total_items": 0
+	},
+],
+
+	"Menu_items" : [{
+		"id" : 0,
+	  	"item" : "Braised Leeks with Mozzarella",
+	  	"price" : 100.00
+	},
+	{
+		"id" : 1,
+	  	"item" : "Papa Murphy's Veggie DeLite Pizza",
+	  	"price" : 320.00
+	},
+	{
+		"id" : 2,
+	  	"item" : "French bean aloo",
+	  	"price" : 450.00
+	},
+	{
+		"id" : 3,
+	  	"item" : "Chipotle Mexican Grill",
+	  	"price" : 75.00
+	},
+	{
+		"id" : 4,
+	  	"item" : "Footlong Veggie Delight ",
+	  	"price" : 150.00
+	},
+	{
+		"id" : 5,
+	  	"item" : "Spaghetti Squash Marinara",
+	  	"price" : 200.00
+	},
+	{
+		"id" : 6,
+	  	"item" : "Sweet and Sour Vegetables and Tofu with a side of brown rice",
+	  	"price" : 90.00
+	},
+	{
+		"id" : 7,
+	  	"item" : "Yotam Ottolenghi's meat-free mezze",
+	  	"price" : 170.00
+	},
+	{
+		"id" : 8,
+	  	"item" : "Fuchsia Dunlop's pock-marked old woman's tofu",
+	  	"price" : 80.00
+	},
+	{
+		"id" : 9,
+	  	"item" : "Maria Ellis's stuffed tofu",
+	  	"price" : 130.00
+	}
+]
+}

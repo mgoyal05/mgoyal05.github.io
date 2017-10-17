@@ -1,0 +1,41 @@
+.btnRegister{
+  background-color: white; /* Green */
+  border: .2rem ;
+  border-radius: 0%;
+  color: black;
+  padding: 2rem 3rem 2rem 3rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.btnRegister:hover{
+  background-color: rgba(95, 95, 95, 0.28);
+  color: black;
+}
+.btn-primary:focus {
+    box-shadow: 0 0 0 3px white;
+  }
+
+.col-sm-4 {
+  margin-left: .5rem;
+  border-right: .2rem solid black;
+  max-width: 25%;
+}
+
+.modal-body {
+  overflow-x: auto;
+}
+
+.modal-dialog {
+    max-width: 40rem;
+  }
+
+#table_body th{
+  font-weight: normal;
+}
+
+#total_bill{
+  font-weight: bold;
+}
