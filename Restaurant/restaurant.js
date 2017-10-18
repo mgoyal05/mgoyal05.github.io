@@ -127,7 +127,7 @@ tables.forEach(function (obj) {
 	var button = document.createElement('BUTTON');
 	button.setAttribute('id', "table_" + obj.id);
 	button.setAttribute('type', 'button');
-	button.setAttribute('class','btnRegister btn btn-primary btn-lg');
+	button.setAttribute('class','btnRegister btn btn-primary btn-lg btn-block');
 	button.setAttribute('data-toggle','modal');
 	button.setAttribute('ondrop', 'drop(event, this.id)');
 	button.setAttribute('ondragover', 'allowDrop(event)');
